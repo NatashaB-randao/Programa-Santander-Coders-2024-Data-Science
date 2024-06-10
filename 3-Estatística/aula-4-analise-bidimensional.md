@@ -13,3 +13,31 @@ Existem três cenários principais em que a análise bidimensional é aplicada:
 No caso de duas variáveis quantitativas, a relação entre elas é frequentemente avaliada por meio do conceito de "correlação". A correlação mede a força e a direção da relação linear entre duas variáveis, variando de -1 a 1. Um valor próximo de 1 indica uma correlação positiva forte, enquanto um valor próximo de -1 indica uma correlação negativa forte. Um valor próximo de 0 indica uma correlação fraca ou inexistente.
 
 A análise bidimensional é uma ferramenta poderosa para entender os relacionamentos entre variáveis em um conjunto de dados, permitindo insights valiosos que podem ser utilizados para tomar decisões informadas em diversas áreas, como negócios, ciências sociais, saúde e muitas outras.
+
+--------
+
+**Correlação Linear Positiva:**
+- A correlação linear positiva ocorre quando há uma relação direta entre duas variáveis quantitativas.
+- Isso significa que, à medida que o valor de uma variável aumenta, o valor da outra variável também tende a aumentar.
+- Na análise de dispersão, os pontos no gráfico tendem a se agrupar em uma linha inclinada para cima, indicando uma associação positiva entre as variáveis.
+- O coeficiente de correlação (r) é próximo de +1, indicando uma forte correlação positiva.
+
+**Correlação Linear Negativa:**
+- A correlação linear negativa ocorre quando há uma relação inversa entre duas variáveis quantitativas.
+- Isso significa que, à medida que o valor de uma variável aumenta, o valor da outra variável tende a diminuir.
+- Na análise de dispersão, os pontos no gráfico tendem a se agrupar em uma linha inclinada para baixo, indicando uma associação negativa entre as variáveis.
+- O coeficiente de correlação (r) é próximo de -1, indicando uma forte correlação negativa.
+
+**Correlação Não-Linear:**
+- A correlação não-linear ocorre quando a relação entre duas variáveis não pode ser descrita por uma linha reta.
+- Isso significa que as mudanças em uma variável não são acompanhadas por mudanças proporcionais na outra variável, mas podem seguir um padrão mais complexo.
+- Na análise de dispersão, os pontos no gráfico podem não seguir uma linha reta, mas ainda podem exibir algum tipo de padrão ou tendência.
+- O coeficiente de correlação (r) pode ser próximo de 0 ou pode não ser uma medida apropriada para descrever a relação entre as variáveis.
+
+**Não há Correlação:**
+- Não há correlação quando não há relação aparente entre duas variáveis quantitativas.
+- Isso significa que as mudanças em uma variável não estão relacionadas às mudanças na outra variável.
+- Na análise de dispersão, os pontos no gráfico estão dispersos aleatoriamente, sem seguir qualquer padrão discernível.
+- O coeficiente de correlação (r) é próximo de 0, indicando ausência de correlação.
+
+Entender os diferentes tipos de correlação é fundamental para interpretar adequadamente os resultados da análise de dados e fazer inferências precisas sobre as relações entre as variáveis em estudo.
