@@ -45,12 +45,111 @@ Primeiro, identificamos que há 10 gatos no total, dos quais 5 são adultos. Ent
 
 Para encontrar a probabilidade de escolher um gato adulto macho, dividimos o número de gatos adultos machos pelo número total de gatos adultos:
 
-\[ \text{Probabilidade} = \frac{\text{Número de gatos adultos machos}}{\text{Número total de gatos adultos}} = \frac{2}{5} \]
+Probabilidade = (Número de gatos adultos machos) / (Número total de gatos adultos) = 2/5
 
 Convertendo isso para uma porcentagem:
 
-\[ \frac{2}{5} = 0,4 \]
+2/5 =0,4
 
-\[ 0,4 \times 100 = 40\% \]
+0,4×100=40%
 
 Portanto, a probabilidade de escolher um gato adulto macho é de **40%**.
+
+------
+
+**Questão 3**
+Ao analisar a distribuição de notas dos candidatos na prova de um processo seletivo (notas variando de 0 a 10), descobriu-se que a nota média foi de 8,7; e a mediana foi de 7,1. Ao visualizar a distribuição, ela é unimodal. Sabendo destas informações, podemos afirmar que:
+
+
+A distribuição tem assimetria negativa.
+
+As notas estão distribuídas segundo a distribuição normal.
+
+A distribuição tem assimetria positiva.
+
+A distribuição de notas é simétrica.
+Questão
+
+**Resposta**
+Para determinar a assimetria da distribuição de notas, devemos analisar a relação entre a média e a mediana:
+
+- **Média maior que a mediana:** Indica uma distribuição com assimetria positiva (ou enviesada para a direita). Isso significa que **há uma cauda mais longa à direita da média.**
+- **Média menor que a mediana:** Indica uma distribuição com assimetria negativa (ou enviesada para a esquerda). Isso significa que **há uma cauda mais longa à esquerda da média.**
+- **Média igual à mediana:** Indica uma distribuição simétrica, como a **distribuição normal.**
+
+Neste caso, temos:
+
+- Média = 8,7
+- Mediana = 7,1
+
+Como a média é maior que a mediana, podemos concluir que a distribuição das notas tem **assimetria positiva**.
+
+Portanto, a afirmação correta é:
+
+**A distribuição tem assimetria positiva.**
+
+------
+
+**Questão 4**
+Suponha que os dados de um experimento de uma variável X seja:
+
+10	2	15	11	9	3	7	15	12	5	8
+
+O valor da variância é:
+
+4,37
+
+8,81
+
+15
+
+19,16
+
+**Resposta**
+Para calcular a variância de um conjunto de dados, seguimos os seguintes passos:
+
+1. Calcular a média dos dados.
+2. Subtrair a média de cada dado e elevar o resultado ao quadrado.
+3. Somar esses valores.
+4. Dividir a soma pelo número de dados (ou pelo número de dados menos um, para a amostra).
+
+Vamos calcular a variância para o conjunto de dados fornecido.
+
+Conjunto de dados: 10, 2, 15, 11, 9, 3, 7, 15, 12, 5, 8
+
+**Passo 1: Calcular a média**
+
+Média = (10 + 2 + 15 + 11 + 9 + 3 + 7 + 15 + 12 + 5 + 8) / 11
+
+Média = 97 / 11 = 8,82
+
+**Passo 2: Calcular a soma dos quadrados das diferenças entre cada valor e a média**
+
+(10 - 8.82)² = 1.3984  
+(2 - 8.82)² = 46.9824  
+(15 - 8.82)² = 38.0684  
+(11 - 8.82)² = 4.7884  
+(9 - 8.82)² = 0.0324  
+(3 - 8.82)² = 33.8724  
+(7 - 8.82)² = 3.3124  
+(15 - 8.82)² = 38.0684  
+(12 - 8.82)² = 10.1024  
+(5 - 8.82)² = 14.5924  
+(8 - 8.82)² = 0.6724
+
+**Passo 3: Somar esses valores**
+
+Soma dos quadrados = 1.3984 + 46.9824 + 38.0684 + 4.7884 + 0.0324 + 33.8724 + 3.3124 + 38.0684 + 10.1024 + 14.5924 + 0.6724 = 192.89
+
+**Passo 4: Dividir a soma pelo número de dados menos um (para a amostra, n-1)**
+
+Número de dados (n) = 11
+
+Variância (\(\sigma^2\)) = 192.89 / (11 - 1) = 192.89 / 10 = 19.289
+
+
+Portanto, a variância do conjunto de dados é aproximadamente **19,29**.
+
+Portanto, a resposta correta é:
+
+**19,16**
