@@ -14,7 +14,9 @@ III - Método de amostragem mais simples onde serão escolhidos aleatoriamente e
 A correlação correta entre os tipos de amostragem e suas definições é:
 
 1 - Amostragem Aleatória Simples: III - Método de amostragem mais simples onde serão escolhidos aleatoriamente elementos com ou sem reposição.
+
 2 - Amostragem Estratificada: I - Método de amostragem onde a população é dividida em grupos (estratos) segundo algumas características conhecidas sobre a população em estudo.
+
 3 - Amostragem por Conglomerado: II - Método de amostragem que divide em subpopulações (conglomerados), onde escolhem aleatoriamente por amostragem simples as subpopulações e todos os elementos de uma subpopulação irão fazer parte da amostra.
 
 Portanto, a alternativa correta é: 1-III, 2-I, 3-II.
