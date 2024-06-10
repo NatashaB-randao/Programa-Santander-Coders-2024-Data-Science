@@ -145,7 +145,7 @@ Soma dos quadrados = 1.3984 + 46.9824 + 38.0684 + 4.7884 + 0.0324 + 33.8724 + 3.
 
 Número de dados (n) = 11
 
-Variância (\(\sigma^2\)) = 192.89 / (11 - 1) = 192.89 / 10 = 19.289
+Variância = 192.89 / (11 - 1) = 192.89 / 10 = 19.289
 
 
 Portanto, a variância do conjunto de dados é aproximadamente **19,29**.
@@ -153,3 +153,71 @@ Portanto, a variância do conjunto de dados é aproximadamente **19,29**.
 Portanto, a resposta correta é:
 
 **19,16**
+
+-------
+
+**Questão 5**
+Considere uma amostra aleatória formada por 10 alunos e pelas notas obtidas por eles em matemática e estatística.
+
+![Amostra](amostra.jpg)
+
+
+Construindo um diagrama de dispersão, é possível concluir que a correlação é
+
+0,3
+
+-0,9
+
+0,9
+
+-0,3
+
+
+**Resposta**
+Para determinar a correlação entre as notas de matemática e estatística, precisamos calcular o coeficiente de correlação de Pearson. Aqui estão as etapas:
+
+1. Calcular a média das notas de matemática (\( \bar{x} \)) e estatística (\( \bar{y} \)).
+2. Calcular a soma dos produtos das diferenças entre cada nota e a média das respectivas matérias.
+3. Calcular a soma dos quadrados das diferenças entre cada nota e a média das respectivas matérias.
+4. Usar a fórmula do coeficiente de correlação de Pearson:
+
+\[ r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}} \]
+
+Vamos calcular isso passo a passo usando os dados fornecidos.
+
+### Passo 1: Calcular as Médias
+
+Notas de Matemática (Xi): 5.0, 8.0, 7.0, 10.0, 6.0, 7.0, 9.0, 3.0, 8.0, 2.0
+Notas de Estatística (Yi): 6.0, 9.0, 8.0, 10.0, 5.0, 7.0, 8.0, 4.0, 6.0, 2.0
+
+Média de Matemática (x):
+
+(x) = (5 + 8 + 7 + 10 + 6 + 7 + 9 + 3 + 8 + 2) / 10 = 65/10 = 6.5 
+
+Média de Estatística (y):
+
+(y) = (6 + 9 + 8 + 10 + 5 + 7 + 8 + 4 + 6 + 2) / 10 = 65/10 = 6.5 
+
+### Passo 2: Calcular os Produtos das Diferenças
+
+Vamos calcular as diferenças entre cada nota e a média e depois os produtos dessas diferenças.
+
+\[ (x_i - \bar{x}) \]
+\[ (y_i - \bar{y}) \]
+\[ (x_i - \bar{x})(y_i - \bar{y}) \]
+
+### Passo 3: Calcular as Somatórias
+
+\[ \sum (x_i - \bar{x})^2 \]
+\[ \sum (y_i - \bar{y})^2 \]
+\[ \sum (x_i - \bar{x})(y_i - \bar{y}) \]
+
+### Passo 4: Usar a Fórmula do Coeficiente de Correlação de Pearson
+
+Vamos calcular isso utilizando Python para garantir precisão. Vou fazer esses cálculos agora.
+
+O coeficiente de correlação de Pearson calculado é aproximadamente **0,91**.
+
+Portanto, ao construir um diagrama de dispersão com as notas fornecidas, podemos concluir que a correlação é:
+
+**0,9**
