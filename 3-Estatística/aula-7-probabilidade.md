@@ -37,21 +37,59 @@ P(cara) = 1/2 = 0.5
 P(4) = 1/6
 ```
 
-### Tipos de Probabilidade:
+### Definições de Probabilidade
 
-1. **Probabilidade Teórica:**
-   - Baseada em raciocínio lógico. Exemplo: A probabilidade de tirar uma carta de copas de um baralho bem embaralhado é:
+#### Definição Clássica
 
-```
-P(carta de copas) = 13/52 = 1/4
-```
+A definição clássica de probabilidade é baseada em resultados igualmente prováveis. Foi proposta pelo matemático francês Pierre-Simon Laplace no século XVIII. Esta definição é adequada quando todos os resultados possíveis de um experimento são igualmente prováveis.
 
-2. **Probabilidade Empírica:**
-   - Baseada em experimentos ou observações. Exemplo: Se você joga uma moeda 100 vezes e obtém "cara" 55 vezes, a probabilidade empírica de obter "cara" é:
+**Fórmula:**
 
 ```
-P(cara) = 55/100 = 0.55
+Probabilidade (P) = Número de resultados favoráveis / Número total de resultados possíveis
 ```
+
+**Exemplo:**
+
+1. **Moeda:**
+   - Jogando uma moeda, a probabilidade de obter "cara" é:
+   
+   ```
+   P(cara) = 1/2 = 0.5
+   ```
+
+2. **Dado:**
+   - Jogando um dado de seis faces, a probabilidade de obter um "4" é:
+   
+   ```
+   P(4) = 1/6
+   ```
+
+#### Definição Frequentista
+
+A definição frequentista de probabilidade é baseada na frequência relativa de um evento à medida que o número de experimentos se aproxima do infinito. Esta definição é útil em situações em que os eventos não são necessariamente igualmente prováveis e é amplamente utilizada na inferência estatística.
+
+**Fórmula:**
+
+```
+Probabilidade (P) = Limite da frequência relativa conforme o número de experimentos tende ao infinito
+```
+
+**Exemplo:**
+
+1. **Lançamento de Moeda:**
+   - Se você jogar uma moeda 100 vezes e obter "cara" 55 vezes, a probabilidade empírica de obter "cara" é:
+   
+   ```
+   P(cara) = 55/100 = 0.55
+   ```
+
+2. **Qualquer Experimento Aleatório:**
+   - A probabilidade de um evento E após n tentativas é:
+   
+   ```
+   P(E) = (Número de vezes que E ocorreu) / n
+   ```
 
 ### Conceitos Adicionais:
 
@@ -62,6 +100,10 @@ P(cara) = 55/100 = 0.55
    - Dois eventos são mutuamente exclusivos se não podem acontecer ao mesmo tempo. Exemplo: Obter "cara" e "coroa" no mesmo lançamento de uma moeda.
 
 ### Resumo:
+
+- **Definição Clássica:** Baseada em resultados igualmente prováveis, adequada para situações com um número finito de resultados igualmente prováveis.
+  
+- **Definição Frequentista:** Baseada na frequência relativa de um evento, adequada para grandes conjuntos de dados e experimentos repetitivos.
 
 Probabilidade é uma ferramenta matemática que mede a chance de eventos ocorrerem. Usamos frações ou porcentagens para expressar essa chance, baseando-nos em espaços amostrais e resultados favoráveis.
 
