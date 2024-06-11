@@ -78,7 +78,7 @@ Probabilidade (P) = Limite da frequência relativa conforme o número de experim
 **Exemplo:**
 
 1. **Lançamento de Moeda:**
-   - Se você jogar uma moeda 100 vezes e obter "cara" 55 vezes, a probabilidade empírica de obter "cara" é:
+   - Se você jogar uma moeda 100 vezes e obtiver "cara" 55 vezes, a probabilidade empírica de obter "cara" é:
    
    ```
    P(cara) = 55/100 = 0.55
@@ -89,6 +89,38 @@ Probabilidade (P) = Limite da frequência relativa conforme o número de experim
    
    ```
    P(E) = (Número de vezes que E ocorreu) / n
+   ```
+
+#### Definição Axiomática
+
+A definição axiomática de probabilidade foi introduzida pelo matemático russo Andrey Kolmogorov em 1933. Ela se baseia em um conjunto de axiomas (regras fundamentais) que formam a base para a teoria da probabilidade.
+
+Os três axiomas de Kolmogorov são:
+
+1. **Axioma da Não-Negatividade:**
+   - Para qualquer evento \(A\), a probabilidade de \(A\) é um número não-negativo.
+   ```
+   P(A) \geq 0
+   ```
+
+2. **Axioma da Unidade:**
+   - A probabilidade do espaço amostral \(S\) é 1.
+   ```
+   P(S) = 1
+   ```
+
+3. **Axioma da Aditividade:**
+   - Para quaisquer dois eventos mutuamente exclusivos \(A\) e \(B\),
+   ```
+   P(A \cup B) = P(A) + P(B)
+   ```
+
+**Exemplo:**
+
+1. **Eventos Mutuamente Exclusivos:**
+   - Se você tem um baralho de cartas e seleciona uma carta, a probabilidade de escolher um ás ou um rei (considerando que não podem ser escolhidos simultaneamente) é:
+   ```
+   P(\text{ás} \cup \text{rei}) = P(\text{ás}) + P(\text{rei}) = \frac{4}{52} + \frac{4}{52} = \frac{8}{52} = \frac{2}{13}
    ```
 
 ### Conceitos Adicionais:
@@ -104,6 +136,8 @@ Probabilidade (P) = Limite da frequência relativa conforme o número de experim
 - **Definição Clássica:** Baseada em resultados igualmente prováveis, adequada para situações com um número finito de resultados igualmente prováveis.
   
 - **Definição Frequentista:** Baseada na frequência relativa de um evento, adequada para grandes conjuntos de dados e experimentos repetitivos.
+
+- **Definição Axiomática:** Baseada em um conjunto de axiomas fundamentais, fornece uma base rigorosa e generalizada para a teoria da probabilidade.
 
 Probabilidade é uma ferramenta matemática que mede a chance de eventos ocorrerem. Usamos frações ou porcentagens para expressar essa chance, baseando-nos em espaços amostrais e resultados favoráveis.
 
