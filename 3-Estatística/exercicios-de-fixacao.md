@@ -223,3 +223,201 @@ O coeficiente de correlação de Pearson calculado é aproximadamente **0,91**.
 Portanto, ao construir um diagrama de dispersão com as notas fornecidas, podemos concluir que a correlação é:
 
 **0,9**
+
+--------
+
+## Exercícios de fixação II
+
+**Questão 1**
+De acordo com o gráfico de dispersão abaixo, assinale a alternativa que contém a equação da reta que melhor se ajusta aos dados.
+
+![Dispersão](grafico_de_dispersao.jpg)
+
+
+**Resposta**
+Para determinar qual alternativa contém a equação da reta que melhor se ajusta aos dados mostrados no gráfico de dispersão, vamos analisar as opções fornecidas:
+
+1. \( y = 0,86x + 0,89 \)
+2. \( y = 86x + 89 \)
+3. \( x = 0,86y + 0,89 \)
+4. \( x = 86x + 89 \)
+
+### Análise das opções:
+
+- **Opção 1: \( y = 0,86x + 0,89 \)**
+  - Essa equação segue a forma \( y = ax + b \), onde \( a \) é o coeficiente angular e \( b \) é o coeficiente linear. Esta é uma equação de uma reta e é uma possível candidata para representar a tendência dos pontos no gráfico.
+
+- **Opção 2: \( y = 86x + 89 \)**
+  - Essa equação também está na forma \( y = ax + b \). No entanto, os coeficientes \( a = 86 \) e \( b = 89 \) são extremamente grandes. Dado o gráfico, esses valores parecem muito elevados para o contexto dos dados apresentados.
+
+- **Opção 3: \( x = 0,86y + 0,89 \)**
+  - Esta é uma forma invertida da equação de uma reta, onde \( x \) é a variável dependente e \( y \) é a variável independente. Isso não corresponde à forma usual de representar uma reta de regressão em um gráfico de dispersão como o mostrado.
+
+- **Opção 4: \( x = 86x + 89 \)**
+  - Essa equação é inconsistente, pois coloca \( x \) em ambos os lados da equação sem propósito lógico. Além disso, não representa uma equação de reta válida.
+
+### Conclusão:
+A equação que melhor se ajusta aos dados é a que segue a forma \( y = ax + b \) com coeficientes que parecem razoáveis para o contexto dos dados no gráfico. Portanto, a alternativa correta é:
+
+**Opção 1: \( y = 0,86x + 0,89 \)**
+
+------
+
+**Questão 2**
+Consideremos um experimento aleatório e os eventos A e B associados, tais que P(A)=1/2, P(B)=1/3 e a probabilidade de A e B ocorrerem é 1/4, assinale a alternativa que contém a probabilidade de ocorrer o evento complementar de A ou o evento complementar de B.
+
+**Resposta**
+Para encontrar a probabilidade do evento complementar de \(A\) ou do evento complementar de \(B\), podemos usar as propriedades de probabilidades complementares e a fórmula da união de eventos.
+
+### Passo a passo
+
+1. **Probabilidades complementares:**
+   - \( P(A') = 1 - P(A) \)
+   - \( P(B') = 1 - P(B) \)
+
+2. **Cálculo das probabilidades complementares:**
+   - \( P(A') = 1 - \frac{1}{2} = \frac{1}{2} \)
+   - \( P(B') = 1 - \frac{1}{3} = \frac{2}{3} \)
+
+3. **Fórmula da união de eventos complementares:**
+   - \( P(A' \cup B') = P(A') + P(B') - P(A' \cap B') \)
+
+4. **Probabilidade da interseção dos complementares:**
+   - \( P(A' \cap B') = 1 - P(A \cup B) \)
+   - Usando a fórmula da união dos eventos \(A\) e \(B\):
+     \[
+     P(A \cup B) = P(A) + P(B) - P(A \cap B)
+     \]
+   - Substituindo os valores dados:
+     \[
+     P(A \cup B) = \frac{1}{2} + \frac{1}{3} - \frac{1}{4}
+     \]
+     \[
+     P(A \cup B) = \frac{6}{12} + \frac{4}{12} - \frac{3}{12} = \frac{7}{12}
+     \]
+   - Portanto,
+     \[
+     P(A' \cap B') = 1 - P(A \cup B) = 1 - \frac{7}{12} = \frac{5}{12}
+     \]
+
+5. **Cálculo final da união dos complementares:**
+   - Substituindo na fórmula:
+     \[
+     P(A' \cup B') = \frac{1}{2} + \frac{2}{3} - \frac{5}{12}
+     \]
+   - Convertendo para um denominador comum (12):
+     \[
+     P(A' \cup B') = \frac{6}{12} + \frac{8}{12} - \frac{5}{12} = \frac{9}{12} = \frac{3}{4}
+     \]
+
+Portanto, a alternativa correta é:
+
+**3/4**
+
+----
+
+**Questão 3**
+Uma filial de uma empresa de consórcio decidiu selecionar dois funcionários para irem até a matriz conhecer o novo sistema voltado para o departamento de contemplação de consórcios. Para isso, o gerente decidiu realizar um sorteio entre os 8 funcionários do departamento, a fim de decidir quais participariam dessa formação.
+Sabendo disso, o número de resultados possíveis para esse torneio é:
+
+**Resposta**
+Para determinar o número de resultados possíveis para o sorteio entre os 8 funcionários do departamento, podemos usar a fórmula para combinações. A fórmula para combinações de "n" objetos tomados "r" de cada vez é:
+
+\[ C(n, r) = \frac{n!}{r!(n-r)!} \]
+
+Onde:
+- \( n \) é o número total de objetos (funcionários)
+- \( r \) é o número de objetos selecionados (funcionários escolhidos para a formação)
+- \( n! \) é o fatorial de \( n \), que é o produto de todos os inteiros positivos menores ou iguais a \( n \).
+
+Neste caso, queremos escolher 2 funcionários entre os 8. Então, a fórmula se torna:
+
+\[ C(8, 2) = \frac{8!}{2!(8-2)!} \]
+
+\[ C(8, 2) = \frac{8!}{2!6!} \]
+
+\[ C(8, 2) = \frac{8 \times 7 \times 6!}{2 \times 1 \times 6!} \]
+
+\[ C(8, 2) = \frac{8 \times 7}{2 \times 1} \]
+
+\[ C(8, 2) = \frac{56}{2} \]
+
+\[ C(8, 2) = 28 \]
+
+Portanto, o número de resultados possíveis para o sorteio é 28. A resposta correta é a opção:
+
+\[ \boxed{28} \]
+
+-----
+
+**Questão 4**
+José começou a fabricar bijuterias para complementar sua renda. Por ainda estar aprendendo o ofício, o tempo que ele demora para fabricar uma unidade de bijuteria varia (conforme seu nível de cansaço e concentração). Sua esposa Maria, que é estatística, percebeu que o tempo de produção (em minutos) se comporta como uma variável aleatória discreta, cuja distribuição ela anotou na seguinte tabela:
+T 5 6 7 8 9 P(T) 0.1 0.3 0.3 0.2 0.1 Sabendo que José tem um lucro de R$ 3,50 por unidade de bijuteria produzida, e considerando que ele trabalha nas bijuterias 4 horas por dia, qual é seu lucro esperado diário?
+
+**Resposta**
+Para calcular o lucro esperado diário de José, primeiro precisamos determinar o tempo médio de produção de uma unidade de bijuteria. Isso pode ser feito multiplicando cada tempo de produção pela sua probabilidade e somando os resultados. Vamos calcular:
+
+\[ E[T] = (5 \times 0.1) + (6 \times 0.3) + (7 \times 0.3) + (8 \times 0.2) + (9 \times 0.1) \]
+\[ E[T] = 0.5 + 1.8 + 2.1 + 1.6 + 0.9 \]
+\[ E[T] = 6.9 \]
+
+Portanto, o tempo médio de produção de uma unidade de bijuteria é de 6.9 minutos.
+
+Agora, vamos calcular quantas unidades José pode produzir em 4 horas, que é igual a 240 minutos (4 horas * 60 minutos/hora). Dividimos o tempo total disponível pelo tempo médio de produção:
+
+\[ \text{Unidades produzidas} = \frac{240}{6.9} \]
+\[ \text{Unidades produzidas} \approx 34.78 \]
+
+Como José pode produzir apenas um número inteiro de unidades, arredondamos para baixo, então ele pode produzir 34 unidades.
+
+O lucro esperado de José por unidade é de R$ 3,50. Então, seu lucro esperado diário é:
+
+\[ \text{Lucro esperado diário} = \text{Unidades produzidas} \times \text{Lucro por unidade} \]
+\[ \text{Lucro esperado diário} = 34 \times 3.50 \]
+\[ \text{Lucro esperado diário} \approx R\$ 119.00 \]
+
+Portanto, o lucro esperado diário de José é de aproximadamente R$ 119,00. A resposta mais próxima é:
+
+\[ \boxed{R\$ 118,31} \]
+
+----
+
+**Questão 5**
+Você deseja contratar uma gráfica para fazer a impressão de flyers para divulgação da sua banda. Você encontra uma gráfica que garante que 90% das impressões sairão perfeitas, sem qualquer defeito. Desconfiada desta afirmação, você solicita uma amostra de 200 impressões, e atesta que, destas, 22 impressões saem com defeitos.
+Com base nesta amostra, o que é possível afirmar sobre a afirmação de qualidade garantida pela gráfica, a um nível de significância de 5%?
+
+
+**Resposta**
+
+Para avaliar se a afirmação da gráfica sobre a qualidade das impressões pode ser aceita ou rejeitada, podemos realizar um teste de hipótese utilizando a proporção de impressões com defeitos na amostra.
+
+Vamos definir as hipóteses:
+
+- Hipótese nula (\( H_0 \)): A proporção de impressões com defeitos é igual a 10% (0.10), como afirmado pela gráfica.
+- Hipótese alternativa (\( H_1 \)): A proporção de impressões com defeitos não é igual a 10%.
+
+Para conduzir o teste de hipótese, podemos usar o teste de proporção Z, que é apropriado para proporções de uma amostra grande.
+
+O valor crítico para um teste de duas caudas com um nível de significância de 5% é aproximadamente 1,96.
+
+Vamos calcular a estatística de teste Z e compará-la com o valor crítico:
+
+\[ Z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} \]
+
+Onde:
+- \( \hat{p} \) é a proporção de impressões com defeitos na amostra.
+- \( p_0 \) é a proporção afirmada pela gráfica (0.10).
+- \( n \) é o tamanho da amostra (200).
+
+Substituindo os valores conhecidos:
+
+\[ Z = \frac{0.11 - 0.10}{\sqrt{\frac{0.10(1-0.10)}{200}}} \]
+\[ Z = \frac{0.01}{\sqrt{\frac{0.10 \times 0.90}{200}}} \]
+\[ Z = \frac{0.01}{\sqrt{\frac{0.09}{200}}} \]
+\[ Z = \frac{0.01}{\sqrt{0.00045}} \]
+\[ Z ≈ \frac{0.01}{0.0212} \]
+\[ Z ≈ 0.471 \]
+
+Como \( |0.471| < 1.96 \), não rejeitamos a hipótese nula.
+
+Portanto, a conclusão é: Falha em rejeitar a hipótese nula - não há evidência suficiente para negar a afirmação da gráfica.
